@@ -57,4 +57,7 @@ const distObject={
 };
 const{fullName,Age,course}=distObject;
 console.log(name,age,course);
+// map method use the array on subject
+const subjects=['English','Hindi'];
 
+console.log(subjects.map(subject=>'Subject is: '+subject));
