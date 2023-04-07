@@ -18,7 +18,8 @@ function onServer(req,res){
         res.write('<title> form fill </title>' );
             res.write('<body>');
             res.write('Full Name <input type="text"></br>Contact.No <input type="number"></br>');
-            res.write('Choose a profile picture: <input type="file" id="avatar" accept="image/png, image/jpeg"> ')
+            res.write('Choose a profile picture: <input type="file" id="avatar" 
+            accept="image/png, image/jpeg"> ')
             res.write('</body>');
         res.write('</html>')
        return res.end();
