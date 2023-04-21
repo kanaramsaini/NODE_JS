@@ -25,7 +25,7 @@ app.use((req,res,next)=>{
 app.use('/',(req,res,next)=>{
     console.log("No.5 middleware run ");
     // res.sendFile(path.join(__dirname,'../','index.html'));
-    res.sendFile(path.join(__dirname, '../','index.html'));
+    res.sendFile(path.join(__dirname,'index.html'));
 })
 app.listen(8000)
 
